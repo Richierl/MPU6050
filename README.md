@@ -34,6 +34,11 @@ Rango de escala completa Acelerómetro | Sensibilidad del Acelerómetro
 
 <br>
 
+## Esquema del sensor
+![image](https://user-images.githubusercontent.com/124211951/223622242-aed01fd7-6606-4cfa-88f1-971992a9c046.png)
+
+<br>
+
 ## Especificaciones del MPU6050
 * Salida digital de 6 ejes.
 * Giroscopio con sensibilidad de ±250, ±500, ±1000, y ±2000dps.
