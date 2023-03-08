@@ -51,4 +51,38 @@ Rango de escala completa Acelerómetro | Sensibilidad del Acelerómetro
 * Voltaje lógico: 1.8V±5% o VDD.
 * 10000g tolerancia de aceleración máxima. 
 
+## Código
+```python
+from imu import MPU6050
+import time
+from machine import Pin, I2C
+
+i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
+imu = MPU6050(i2c)
+
+while True:
+    #print(imu.accel.xyz,imu.gyro.xyz,imu.temperature,end='\r')
+
+    ax=round(imu.accel.x,2)
+    ay=round(imu.accel.y,2)
+    az=round(imu.accel.z,2)
+    gx=round(imu.gyro.x)
+    gy=round(imu.gyro.y)
+    gz=round(imu.gyro.z)
+    tem=round(imu.temperature,2)
+
+print(ax,"\t",ay,"\t",az,"\t",gx,"\t",gy,"\t",gz,"\t",tem,"        ",end="\r")
+
+time.sleep(0.2)
+```
+
+![image](https://user-images.githubusercontent.com/124211951/223646519-9de7d912-209c-4585-894e-3a341cebfed6.png)
+
+<br>
+Link del ejercicio: https://wokwi.com/projects/358613997070665729
+<br>
+
+## Bibliografía
+* https://hetpro-store.com/TUTORIALES/modulo-acelerometro-y-giroscopio-mpu6050-i2c-twi/
+* https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html
 
