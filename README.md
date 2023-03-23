@@ -79,7 +79,7 @@ time.sleep(0.2)
 ![image](https://user-images.githubusercontent.com/124211951/223646519-9de7d912-209c-4585-894e-3a341cebfed6.png)
 
 <br>
-Link del ejercicio: https://wokwi.com/projects/358613997070665729
+Link del [Ejercicio](https://wokwi.com/projects/358613997070665729)
 <br>
 
 ## Bibliografía
