@@ -83,6 +83,7 @@ Link del [Ejercicio](https://wokwi.com/projects/358613997070665729)
 <br>
 
 ## Bibliografía
-* https://hetpro-store.com/TUTORIALES/modulo-acelerometro-y-giroscopio-mpu6050-i2c-twi/
-* https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html
+* [https://hetpro-store.com/TUTORIALES/modulo-acelerometro-y-giroscopio-mpu6050-i2c-twi/](https://hetpro-store.com/TUTORIALES/modulo-acelerometro-y-giroscopio-mpu6050-i2c-twi/)
+* [https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html](https://naylampmechatronics.com/blog/45_tutorial-mpu6050-acelerometro-y-giroscopio.html)
+
 
